@@ -1,5 +1,3 @@
-# foodie_seller
+# Foodie Seller 
 
-## Foodie Seller 
-
-### The next genration food seller with realtime updates and amazing UI.
+## The next genration food seller with realtime updates and amazing UI.
