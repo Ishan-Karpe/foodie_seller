@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:foodie_seller/splashScreen/splash_screen.dart';
 
-Future <void> main() async {
+Future<void> main() async {
   runApp(const MyApp());
 }
 
@@ -19,5 +19,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-
