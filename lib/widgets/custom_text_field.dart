@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 
 class CustomTextField extends StatelessWidget {
-
   final TextEditingController? controller;
   final IconData data;
   final String? hintText;
   bool? isObsecure = true;
   bool? enabled = true;
 
-  CustomTextField({Key? key,
+  CustomTextField({
+    Key? key,
     this.controller,
     required this.data,
     this.hintText,
     this.isObsecure,
     this.enabled,
-}) : super(key: key);
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
