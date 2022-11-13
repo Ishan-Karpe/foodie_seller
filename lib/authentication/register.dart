@@ -114,7 +114,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     ),
                     onPressed: () => print("clicked"), /// This is temporary
                     style: ElevatedButton.styleFrom(
-                        primary: Colors.amber,
+                        backgroundColor: Colors.amber,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(30),
                         )),
@@ -128,7 +128,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
           ),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
-              primary: Colors.cyan,
+              backgroundColor: Colors.cyan,
               padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 10),
             ),
             onPressed: () => print("CLICKED"), /// Temporary
